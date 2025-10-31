@@ -1,0 +1,55 @@
+Projektbeskrivning – IT-konsulthemsida (GitHub Pages)
+🎯 Syfte
+Skapa en statisk, snabb och professionell hemsida för att profilera mig som IT-konsult, hostad via GitHub Pages under min egen domän.
+Webbplatsen ska ge en överskådlig bild av mina tjänster, bakgrund och kompetens, samt innehålla ett formulär för intresseanmälan med spam-skydd (CAPTCHA eller honeypot).
+
+🧩 Teknisk specifikation
+Hosting: GitHub Pages
+Byggtyp: Statisk webbplats (ingen WordPress eller CMS)
+Teknikstack:
+HTML5
+Tailwind CSS (för stilrent och responsivt gränssnitt)
+Vanilla JavaScript (för kontaktformulär och validering)
+Google reCAPTCHA v3 eller honeypot för spam-skydd
+Mailhantering:
+Formuläret ska skicka intresseanmälningar till en e-postadress via ett serverless API (t.ex. Formspree, Netlify Forms, eller egen endpoint via t.ex. Cloudflare Workers).
+Information som visas på sidorna ska ligga i separata filer (markdown) för att göra det enklare att uppdatera.
+Det ska finnas information på egngelska och svenska
+
+🧱 Struktur (sidor)
+index.html – Startsida
+Kort presentation av konsulten
+Tydlig “call to action” (t.ex. Boka ett samtal eller Skicka intresseanmälan)
+services.html – Tjänster
+Lista över produkter, t.ex.:
+Visare
+MapNGo
+Konsult
+about.html – Om mig
+Kort bio med erfarenhet, tidigare uppdrag, kontaktuppgifter och ev. foto
+contact.html – Intresseanmälan
+Formulärfält:
+Namn
+E-post
+Företag (frivilligt)
+Meddelande
+Spam-skydd (CAPTCHA / honeypot)
+Bekräftelsemeddelande vid inskick
+
+🎨 Designprinciper
+Minimalistiskt, modernt och professionellt (teknikkonsult-stil)
+Ljus bakgrund, accentfärg i blått eller gråtoner
+Sans-serif-typsnitt (t.ex. Inter eller Roboto)
+Responsiv layout (mobil, surfplatta, desktop)
+
+🧰 Utvecklingsinstruktioner
+Skapa ett nytt GitHub-repo (t.ex. it-konsult-hemsida)
+Lägg in koden för webbplatsen i rotkatalogen
+Aktivera GitHub Pages under Settings → Pages → Deploy from branch
+Peka din domän till GitHub Pages via DNS (CNAME eller A-record)
+Testa kontaktformuläret och spam-skyddet
+
+🔒 Säkerhet & Spam-skydd
+Implementera Google reCAPTCHA v3 (osynligt) eller honeypot field
+Validera formulärfält i JavaScript innan inskick
+Undvik att exponera e-post direkt i HTML (förhindra skrapning)
