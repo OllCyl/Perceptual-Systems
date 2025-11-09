@@ -27,7 +27,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
 
   const t = (key: string): string => {
     const translations = getTranslations()
-    return translations[language][key] || key
+    return translations[language][key as keyof typeof translations.sv] || key
   }
 
   return (
@@ -64,8 +64,8 @@ const getTranslations = () => ({
     'services.subtitle': 'Jag erbjuder ett brett utbud av IT-konsulttjänster',
     'services.visare.title': 'Visare',
     'services.visare.desc': 'Avancerad visualiseringslösning för dataanalys och presentation. Perfekt för företag som behöver omvandla komplex data till tydliga insikter.',
-    'services.mapngo.title': 'MapNGo',
-    'services.mapngo.desc': 'Innovativ kartbaserad applikation för navigering och platsbaserade tjänster. Idealisk för logistik och fältarbete.',
+    'services.mapongo.title': 'mapongo',
+    'services.mapongo.desc': 'Innovativ kartbaserad applikation för navigering och platsbaserade tjänster. Idealisk för logistik och fältarbete.',
     'services.consulting.title': 'Konsulttjänster',
     'services.consulting.desc': 'Skräddarsydda IT-konsulttjänster inom systemutveckling, arkitektur och teknisk rådgivning. Jag hjälper dig från idé till färdig lösning.',
     'services.cta': 'Intresserad? Kontakta mig',
@@ -126,8 +126,8 @@ const getTranslations = () => ({
     'services.subtitle': 'I offer a wide range of IT consulting services',
     'services.visare.title': 'Visare',
     'services.visare.desc': 'Advanced visualization solution for data analysis and presentation. Perfect for companies that need to transform complex data into clear insights.',
-    'services.mapngo.title': 'MapNGo',
-    'services.mapngo.desc': 'Innovative map-based application for navigation and location-based services. Ideal for logistics and field work.',
+    'services.mapongo.title': 'mapongo',
+    'services.mapongo.desc': 'Innovative map-based application for navigation and location-based services. Ideal for logistics and field work.',
     'services.consulting.title': 'Consulting Services',
     'services.consulting.desc': 'Tailored IT consulting services in system development, architecture and technical advisory. I help you from idea to finished solution.',
     'services.cta': 'Interested? Contact me',

@@ -14,7 +14,7 @@ A modern, bilingual (Swedish/English) website for IT consulting services built w
 ## Pages
 
 - **Home**: Hero section with call-to-action and key features
-- **Services**: Showcase of products and consulting services (Visare, MapNGo, Consulting)
+- **Services**: Showcase of products and consulting services (Visare, mapongo, Consulting)
 - **About**: Professional background and experience
 - **Contact**: Contact form with spam protection and contact information
 

@@ -23,7 +23,7 @@ Tydlig “call to action” (t.ex. Boka ett samtal eller Skicka intresseanmälan
 services.html – Tjänster
 Lista över produkter, t.ex.:
 Visare
-MapNGo
+mapongo
 Konsult
 about.html – Om mig
 Kort bio med erfarenhet, tidigare uppdrag, kontaktuppgifter och ev. foto
