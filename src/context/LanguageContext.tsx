@@ -76,9 +76,9 @@ const getTranslations = () => ({
     'about.bio.title': 'Bakgrund',
     'about.bio.content': 'Med många års erfarenhet inom IT-branschen har jag arbetat med allt från små startups till stora företag. Min expertis spänner över systemutveckling, arkitektur och projektledning.',
     'about.experience.title': 'Erfarenhet',
-    'about.experience.content': 'Jag har levererat framgångsrika projekt inom olika branscher och har djup kunskap om moderna teknologier som React, TypeScript, Node.js och molnplattformar.',
+    'about.experience.content': 'Jag har levererat framgångsrika projekt inom olika branscher och har med teknologier som React, TypeScript, Node.js, Java och C#.',
     'about.approach.title': 'Min approach',
-    'about.approach.content': 'Jag tror på nära samarbete med kunder, agila metoder och kontinuerlig förbättring. Kvalitet och långsiktighet står alltid i fokus.',
+    'about.approach.content': 'Jag tror på nära samarbete med kunder och behovsanalys som grund för kvalitet och långsiktighet. ',
     
     // Contact page
     'contact.title': 'Kontakta mig',
@@ -138,9 +138,9 @@ const getTranslations = () => ({
     'about.bio.title': 'Background',
     'about.bio.content': 'With many years of experience in the IT industry, I have worked with everything from small startups to large enterprises. My expertise spans system development, architecture and project management.',
     'about.experience.title': 'Experience',
-    'about.experience.content': 'I have delivered successful projects across various industries and have deep knowledge of modern technologies such as React, TypeScript, Node.js and cloud platforms.',
+    'about.experience.content': 'I have delivered successful projects across various industries and have worked with technologies such as React, TypeScript, Node.js, Java and C#.',
     'about.approach.title': 'My approach',
-    'about.approach.content': 'I believe in close collaboration with clients, agile methods and continuous improvement. Quality and long-term sustainability are always in focus.',
+    'about.approach.content': 'I believe in close collaboration with clients and needs analysis as the foundation for quality and long-term sustainability.',
     
     // Contact page
     'contact.title': 'Contact Me',

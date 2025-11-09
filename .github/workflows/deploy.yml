@@ -30,6 +30,8 @@ jobs:
       
       - name: Build
         run: npm run build
+        env:
+          VITE_BASE_PATH: /Perceptual-Systems/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
